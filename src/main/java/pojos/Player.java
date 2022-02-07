@@ -1,4 +1,6 @@
+package pojos;
 
+import java.util.Objects;
 
 public class Player {
     //making the properties private to stop users from accessing it
@@ -52,4 +54,16 @@ public class Player {
         this.contractLength = contractLength;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Player player = (Player) o;
+        return number == player.number && contractLength == player.contractLength && Objects.equals(name, player.name) && Objects.equals(position, player.position);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, position, number, contractLength);
+    }
 }
