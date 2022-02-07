@@ -19,23 +19,23 @@ public class Player {
 
 
     //default constructor
-    public player() {}
+ //   public Player player() {}
    // Getters and Setters - encapsulation
 
     //getter method
 
     public String getName(){
-        return this.name
+        return this.name;
     }
 
     public String getPosition(){
-        return this.position
+        return this.position;
     }
     public int getNumber() {
-        return this.number
+        return this.number;
     }
     public int getContractLength(){
-        return this.contractLength
+        return this.contractLength;
     }
 
 
