@@ -1,4 +1,7 @@
-package pojos;
+package team;
+
+import manager.Manager;
+import players.Player;
 
 import java.util.Arrays;
 import java.util.Objects;

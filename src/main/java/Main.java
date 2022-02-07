@@ -1,4 +1,4 @@
-import pojos.Player;
+import players.Player;
 
 public class Main {
 
