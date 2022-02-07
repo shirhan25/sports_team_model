@@ -22,22 +22,8 @@ public class Main {
         //try this - adding player to a team
         try {
             teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            teamService.addPlayerToTeam(team,player);
-            
+
+
            // catch it when its full and throw an exception
         } catch (Exception e)  {
             System.out.println("team is full");
