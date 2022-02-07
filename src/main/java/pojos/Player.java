@@ -55,6 +55,16 @@ public class Player {
     }
 
     @Override
+    public String toString() {
+        return "Player{" +
+                "name='" + name + '\'' +
+                ", position='" + position + '\'' +
+                ", number=" + number +
+                ", contractLength=" + contractLength +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
