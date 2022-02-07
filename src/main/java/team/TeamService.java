@@ -49,7 +49,7 @@ public class TeamService {
 
 // adding player to team / no need to return & just need to do
 // telling the compiler something could throw an exception
-    public void addPlayerToTeam(Team team, Player player) throws Exception {
+    public int addPlayerToTeam(Team team, Player player) throws Exception {
         //checking spaces on the team
         int spaces = countEmptySpacesOnTeam(team);
         //if there is, add the player
@@ -73,7 +73,8 @@ public class TeamService {
             throw new Exception();
         }
 
-}
+        return spaces;
+    }
 }
 
 
